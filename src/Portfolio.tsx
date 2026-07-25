@@ -153,7 +153,7 @@ const PROJECTS: Project[] = [
     accent: "#8B5CF6",
     icon: Dices,
     thumb: "/games/plinko.jpg",
-    desc: "Physics-based peg board with realistic ball-drop collisions, x0–x12 multiplier buckets, glow & particle trails.",
+    desc: "Physics-based Plinko game with realistic collisions, smooth ball animations, particle effects, glowing trails, and x0–x12 multiplier buckets.",
     stack: ["PixiJS", "React Hooks", "JavaScript"],
     demoUrl: "https://plinko-demo-three.vercel.app/",
     videoUrl: DUMMY_LINK,
