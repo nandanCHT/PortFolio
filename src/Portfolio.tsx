@@ -155,7 +155,7 @@ const PROJECTS: Project[] = [
     thumb: "/games/plinko.jpg",
     desc: "Physics-based peg board with realistic ball-drop collisions, x0–x12 multiplier buckets, glow & particle trails.",
     stack: ["PixiJS", "React Hooks", "JavaScript"],
-    demoUrl: DUMMY_LINK,
+    demoUrl: "https://plinko-demo-three.vercel.app/",
     videoUrl: DUMMY_LINK,
   },
   {
