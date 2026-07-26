@@ -95,8 +95,10 @@ const PROJECTS: Project[] = [
     thumb: "/games/mines.jpg",
     desc: "Configurable mines-count grid with live cash-out, real-time payout ticking, and full bet-history tracking over sockets.",
     stack: ["PixiJS", "React", "Socket.IO", "MVC", "GSAP"],
-    demoUrl: DUMMY_LINK,
-    videoUrl: DUMMY_LINK,
+    demoUrl:
+      "https://drive.google.com/file/d/1Kdn2AuFC_fO-Lx9-37fAAqz2Y-Hrk6Hs/view",
+    videoUrl:
+      "https://drive.google.com/file/d/1Kdn2AuFC_fO-Lx9-37fAAqz2Y-Hrk6Hs/view",
   },
   {
     id: "aviator",
@@ -107,7 +109,7 @@ const PROJECTS: Project[] = [
     thumb: "/games/aviator.jpg",
     desc: "Multiplier crash game — three-phase round cycle (Idle / Running / Crashed), live socket sync, flight & particle FX. Ships alongside a JetX-style rocket variant on the same engine.",
     stack: ["PixiJS", "React", "Socket.IO", "GSAP", "Howler"],
-    demoUrl: DUMMY_LINK,
+    demoUrl: "https://avaitor-game-clone.vercel.app/",
     videoUrl: DUMMY_LINK,
   },
   {
@@ -120,7 +122,8 @@ const PROJECTS: Project[] = [
     desc: "Multiplayer crash variant with a shared live curve, dual bet slots per player, auto cash-out, and a scrolling all-bets ledger.",
     stack: ["React", "TypeScript", "Socket.IO", "Canvas"],
     demoUrl: DUMMY_LINK,
-    videoUrl: DUMMY_LINK,
+    videoUrl:
+      "https://drive.google.com/file/d/1uMdNusA313uylW65eRjvbPqHaYmgdHwb/view",
   },
   {
     id: "jetx",
@@ -557,13 +560,13 @@ function VideoModal({ project, onClose }: VideoModalProps) {
         >
           <X size={18} />
         </button>
-        <div className="modal-screen">
+        {/* <div className="modal-screen">
           <Play size={40} />
           <p>Video demo placeholder</p>
           <span>
             Replace videoUrl for "{project.name}" with your real video link.
           </span>
-        </div>
+        </div> */}
         <a
           className="btn-outline"
           href={project.videoUrl}
